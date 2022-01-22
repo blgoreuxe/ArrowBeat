@@ -4,42 +4,42 @@ let misses = 0;
 let songnum = 0;
 
 var sound = new Howl({
-  src: ['/SFX/slap.mp3'],
+  src: ['./SFX/slap'],
   volume: 1
 });
 
 var buzz = new Howl({
-  src: ['/SFX/buzz.mp3'],
+  src: ['./SFX/slap'],
   volume: 0.1
 });
 
 var dubstep = new Howl({
-  src: ['/BGM/dubstep.mp3'],
+  src: ['./BGM/dubstep.mp3'],
   volume: 0.2
 });
 
 var endless = new Howl({
-  src: ['/BGM/endlessmotion.mp3'],
+  src: ['./BGM/endlessmotion.mp3'],
   volume: 0.2
 });
 
 var house = new Howl({
-  src: ['/BGM/house.mp3'],
+  src: ['./BGM/house.mp3'],
   volume: 0.2
 });
 
 var moose = new Howl({
-  src: ['/BGM/moose.mp3'],
+  src: ['./BGM/moose.mp3'],
   volume: 0.2
 });
 
 var scifi = new Howl({
-  src: ['/BGM/scifi.mp3'],
+  src: ['./BGM/scifi.mp3'],
   volume: 0.2
 });
 
 var summer = new Howl({
-  src: ['/BGM/summer.mp3'],
+  src: ['./BGM/summer.mp3'],
   volume: 0.2
 });
 
