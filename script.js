@@ -4,12 +4,12 @@ let misses = 0;
 let songnum = 0;
 
 var sound = new Howl({
-  src: ['./SFX/slap'],
+  src: ['./SFX/slap.mp3'],
   volume: 1
 });
 
 var buzz = new Howl({
-  src: ['./SFX/slap'],
+  src: ['./SFX/buzz.mp3'],
   volume: 0.1
 });
 
