@@ -48,10 +48,12 @@ document.addEventListener("keydown", function(event) {
     if (num == 1) {
       pick()
       sound.play();
+      picksong()
     } else {
       misses += 1;
       document.getElementById("misses").textContent = "Misses: " + misses
       buzz.play();
+      picksong()
     }
   }
 });
@@ -61,10 +63,12 @@ document.addEventListener("keydown", function(event) {
     if (num == 2) {
       pick()
       sound.play();
+      picksong()
     } else {
       misses += 1;
       document.getElementById("misses").textContent = "Misses: " + misses
       buzz.play();
+      picksong()
     }
   }
 });
@@ -74,10 +78,12 @@ document.addEventListener("keydown", function(event) {
     if (num == 3) {
       pick()
       sound.play();
+      picksong()
     } else {
       misses += 1;
       document.getElementById("misses").textContent = "Misses: " + misses
       buzz.play();
+      picksong()
     }
   }
 });
@@ -87,15 +93,15 @@ document.addEventListener("keydown", function(event) {
     if (num == 4) {
       pick()
       sound.play();
+      picksong()
     } else {
       misses += 1;
       document.getElementById("misses").textContent = "Misses: " + misses
       buzz.play();
+      picksong()
     }
   }
 });
-
-picksong()
 
 function picksong() {
   songnum = Math.floor(Math.random() * 6) + 1;
